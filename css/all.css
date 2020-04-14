@@ -130,9 +130,12 @@ table {
 }
 
 /* css reset end */
+
+/* 共用 */
 .container {
   width: 1200px;
   margin: 0 auto;
+  display: block;
 }
 
 img {
@@ -155,6 +158,17 @@ img {
   font-weight: 500;
 }
 
+.list {
+  margin-left: 24px;
+  padding-left: 24px;
+}
+
+.list-item {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 32px;
+}
+
 /* header */
 .header {
   border-bottom: 2px solid #000;
@@ -174,8 +188,6 @@ img {
 }
 
 .profile .pro-list {
-  /* padding-left: 16px; */
-  /* margin-left: 32px; */
   position: relative;
   margin-bottom: 72px;
 }
@@ -256,6 +268,7 @@ img {
 
 /* skill */
 .skill {
+  height: 415px;
   color: #fff;
   background-color: #415165;
   padding: 24px 0 0 0;
@@ -273,7 +286,7 @@ img {
   top: 67px;
   left: -999999px;
   z-index: -1;
-}
+}  
 
 .skill h2 {
   width: 996px;
@@ -307,6 +320,7 @@ img {
 /* work experience */
 .work-ex-list {
   position: relative;
+  margin-bottom: 72px;
 }
 
 .work-ex-list::before {
@@ -317,18 +331,6 @@ img {
   background-color: #96A9C4;
   top: 0px;
   left: 0px;
-}
-
-
-.list {
-  margin-left: 24px;
-  padding-left: 24px;
-}
-
-.list-item {
-  font-size: 24px;
-  line-height: 36px;
-  margin-bottom: 32px;
 }
 
 .work-ex ul li img {
@@ -356,13 +358,14 @@ img {
   justify-content: center;
   border-bottom: 1px solid #fff;
   padding-top: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 31px;
 }
 
 .contact .text h2 {
   font-size: 32px;
   line-height: 45px;
   margin-bottom: 8px;
+  font-weight: 500;
 }
 
 .contact .text span {
@@ -377,18 +380,18 @@ img {
   padding-bottom: 48px;
 }
 
-.contact-list li {
+.contact-list-item {
   font-size: 24px;
   line-height: 33px;
   margin-bottom: 16px;
   font-weight: 200;
 }
 
-.contact-list .img {
+.img {
   display: flex;
   justify-content: center;
 }
 
-.contact-list-item img {
+.img-list {
   margin-left: 24px;
 }
